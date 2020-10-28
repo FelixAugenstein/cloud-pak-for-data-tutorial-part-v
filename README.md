@@ -1,5 +1,5 @@
 <h1 align="center" style="border-bottom: none;">:bar_chart: IBM Digital Tech Tutorial: Watson Studio Part V</h1>
-<h3 align="center">In this hands-on tutorial you will deploy an app to test your model.</h3>
+<h3 align="center">In this hands-on tutorial you will deploy a local app to test your model.</h3>
 
 ## Prerequisites
 
@@ -15,6 +15,7 @@ This tutorial consists of 4 parts, you can start with part I or any other part, 
 [Part II - build and evaluate machine learning models by using the AutoAI](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-ii/)<br>
 [Part III - graphically build and evaluate machine learning models by using the SPSS Modeler flow](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-iii/)<br>
 [Part IV - set up and run Jupyter Notebooks to develop a machine learning model](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-iv/)
+[Part V - deploy a local app to test your model](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-v/)
 
 The 4 parts of this tutorial are based on the [Learning path: Getting started with Watson Studio](https://developer.ibm.com/series/learning-path-watson-studio/).
 
