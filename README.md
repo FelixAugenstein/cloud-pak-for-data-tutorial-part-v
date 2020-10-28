@@ -21,7 +21,7 @@ The 4 parts of this tutorial are based on the [Learning path: Getting started wi
 ## Start the app
 
 - Download the repository to start the app on your local machine
-- Open `app.py` and enter your API-Key, URL, Space-ID and Deployment-ID
+- Open `app.py` and enter your API-Key, URL, Space-ID and Deployment-ID, then save the file
 - Start a terminal at the folder that contains the file `app.py`, in this case the folder is digital-tech-tutorial-watson-studio-part-v-master
 - You might have to install the WML client with the following command: `pip install watson-machine-learning-client-V4`
 - You might also have to install requests with the following command: `pip install requests`
