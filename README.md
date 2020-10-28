@@ -28,7 +28,7 @@ The 4 parts of this tutorial are based on the [Learning path: Getting started wi
 - Then start the app by typing: `python app.py`
 - Insert some values and hit the predict button
 
-![Python App](readme_images/python-app.png)
+![Python App](readme_images/python_app.png)
 
 ## If you have any questions just contact me
 Felix Augenstein<br>
