@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Python App Result Page</title>
+
+    <!-- Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Felix Augenstein, IBM" />
+    <link rel="SHORTCUT ICON" href="{{url_for('static', filename='favicon.png')}}" type="image/x-icon"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>
+        var json = document.getElementById("json");
+        document.getElementById("json").textContent = JSON.stringify(json, undefined, 4);
+    </script>
+
+    <!-- Styles -->
+    <style>
+        body {padding: 0; margin: 0;}
+        h1 {font-family: 'Montserrat', sans-serif; font-size: 44px; color:#fff; margin: 0; padding: 10px;}
+        h2 {font-family: 'Montserrat', sans-serif; font-size: 32px; color:#000; margin: 0; padding: 10px;}
+        p {font-family: 'Montserrat', sans-serif; font-size: 22px; color:#000; margin: 0; padding: 10px;}
+        hr {margin: 20px; padding: 0; border: 1px solid #282828;}
+        input[type=text], select {padding: 8px 10px; margin: 10px 25px; min-width:300px; display: inline-block; background-color: #f3f3f3; border: 1px solid #282828; box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-size: 22px;}
+        #submitButton {font-family: 'Montserrat', sans-serif; font-size: 22px; width: 300px; background-color: #0062ff; color: #fff; padding: 14px 20px; margin: 8px 0; border: 1px solid #0062ff; cursor: pointer; transition-duration: 0.4s;}
+        #submitButton:hover {background-color: #0354e9;}
+        #json {margin: 20px 10px; padding: 15px 20px; border: 1px solid #282828;}
+        .appDeveloper{background-color: #f3f3f3; margin: 0; padding: 5px 25px;}
+        .appTitle{background-color: #282828; margin: 0; padding: 25px;}
+        .appResult{background-color: #f3f3f3; margin: 0; padding: 25px;}
+        .appFooter{background-color: #282828; margin: 0; padding: 15px; text-align: center;}
+        .appFooter a{font-family: 'Montserrat', sans-serif; font-size: 18px; color: #fff; text-decoration: underline; margin: 0; padding: 5px;}
+        .loaderAnimation {border: 16px solid #f3f3f3; border-radius: 50%; border-top: 16px solid #0062ff; width: 120px; height: 120px; -webkit-animation: spin 2s linear infinite; /* Safari */ animation: spin 2s linear infinite;}
+        .centeredBox {position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+        main { display: grid; grid-gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-auto-rows: minmax(75px, 1fr); grid-auto-flow: dense; padding: 3rem;}
+        .responsiveElement { display: flex; align-items: center; justify-content: center;}
+
+        /* Loader */
+        @-webkit-keyframes spin {0% { -webkit-transform: rotate(0deg); } 100% { -webkit-transform: rotate(360deg); }}
+        @keyframes spin {0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); }}
+    </style>
+    
+</head>
+<body>
+
+    <div id="contentContainer">
+
+        <div class="appDeveloper">
+            <h2>IBM Ecosystem Advocacy Group</h2>
+        </div> 
+        
+        <div class="appTitle">
+            <h1>Machine Learning App to predict:<br><span style="color: #0062ff">Customer Churn</span></h1>
+        </div>
+
+        <div class="appResult">
+            <h2>Prediction result:</h2>
+            <p>{{churn_result}}</p>
+            <p>{{churn_result_percentage}}</p>
+
+            <hr>
+
+            <h2>JSON output:</h2>
+            <pre id="json"><code>{{predictions}}</code></pre>
+            <a href="" style="margin:10px;">
+                <button id="submitButton">
+                    Start new prediction
+                </button>
+            </a>
+        </div>
+
+        <div class="appFooter">
+            <a href="https://ecosystem-events-dach.eu-de.cf.appdomain.cloud/" title="IBM Ecosystem Advocacy Group">IBM Ecosystem Advocacy Group</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
