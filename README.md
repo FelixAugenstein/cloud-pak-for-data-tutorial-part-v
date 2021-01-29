@@ -24,14 +24,15 @@ The first 4 parts of this tutorial are based on the [Learning path: Getting star
 
 - Download the repository to start the app on your local machine
 - Open `app.py` and enter your API-Key, URL, Space-ID and Deployment-ID, then save the file
-  * If you don't have one already create a new API-Key [here](https://cloud.ibm.com/iam/apikeys)
+  * If you don't have one already create a new API-Key [here](https://cloud.ibm.com/iam/apikeys) or check out the previous Tutorial.
   * The default url for wml services in the US is `https://us-south.ml.cloud.ibm.com`
   * Find your Space-ID in your IBM Cloud Pak for Data --> Deployment Spaces --> Your Deployment Space --> Settings
   * Find your Deployment-ID in your IBM Cloud Pak for Data --> Deployment Spaces --> Your Deployment Space --> Deployments --> Your Deployment --> Info Panel on the right hand side
 
 - Start a terminal at the folder that contains the file `app.py`, in this case the folder is digital-tech-tutorial-watson-studio-part-v-master
-- You might have to install the WML client with the following command: `pip install watson-machine-learning-client-V4`
-- You might also have to install requests with the following command: `pip install requests`
+- You might have to install the WML client and IBM Watson ML with the following commands: `pip install watson-machine-learning-client-V4` and 
+`pip install ibm_watson-machine-learning`
+- You might also have to install requests and flask with the following commands: `pip install requests` and `pip install flask`
 - Then start the app by typing: `python app.py`
 - Insert some values and hit the predict button
 
