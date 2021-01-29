@@ -1,4 +1,4 @@
-<h1 align="center" style="border-bottom: none;">:bar_chart: IBM Digital Tech Tutorial: Watson Studio Part V</h1>
+<h1 align="center" style="border-bottom: none;">:bar_chart: IBM Cloud Pak for Data Tutorial: Part V</h1>
 <h3 align="center">In this hands-on tutorial you will deploy a local app to test your model.</h3>
 
 ## Prerequisites
@@ -9,7 +9,7 @@
 4. Now you should be able to login to your new IBM Cloud account ;-)
 5. Make sure to [download Python](https://www.python.org/downloads/)
 
-## Digital Tech Tutorial Watson Studio Part I to V
+## IBM Cloud Pak for Data Tutorials Part I to V
 
 This tutorial consists of 5 parts, you can start with part I or any other part, however, the necessary environment is set up in part I.<br>
 [Part I - data visualization, preparation, and transformation](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio)<br>
