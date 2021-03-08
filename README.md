@@ -29,7 +29,7 @@ The first 4 parts of this tutorial are based on the [Learning path: Getting star
   * Find your Space-ID in your IBM Cloud Pak for Data --> Deployment Spaces --> Your Deployment Space --> Settings
   * Find your Deployment-ID in your IBM Cloud Pak for Data --> Deployment Spaces --> Your Deployment Space --> Deployments --> Your Deployment --> Info Panel on the right hand side
 
-- Start a terminal at the folder that contains the file `app.py`, in this case the folder is digital-tech-tutorial-watson-studio-part-v-master
+- Start a terminal at the folder that contains the file `app.py`, in this case the folder is cloud-pak-for-data-tutorial-part-v-master
 - You might have to install the WML client and IBM Watson ML with the following commands: `pip install watson-machine-learning-client-V4` and 
 `pip install ibm_watson-machine-learning`
 - You might also have to install requests and flask with the following commands: `pip install requests` and `pip install flask`
