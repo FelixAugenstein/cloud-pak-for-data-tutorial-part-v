@@ -24,6 +24,10 @@
         h2 {font-family: 'Montserrat', sans-serif; font-size: 32px; color:#000; margin: 0; padding: 10px;}
         p {font-family: 'Montserrat', sans-serif; font-size: 22px; color:#000; margin: 0; padding: 10px;}
         hr {margin: 20px; padding: 0; border: 1px solid #282828;}
+        table {border-collapse: collapse; border-spacing: 0; width: 100%; border: 1px solid #ddd;}
+        th, td {text-align: left; padding: 8px;}
+        tr:nth-child(even){background-color: #f2f2f2}
+        code {white-space: normal; display: block}
         input[type=text], select {padding: 8px 10px; margin: 10px 25px; min-width:300px; display: inline-block; background-color: #f3f3f3; border: 1px solid #282828; box-sizing: border-box; font-family: 'Montserrat', sans-serif; font-size: 22px;}
         #submitButton {font-family: 'Montserrat', sans-serif; font-size: 22px; width: 300px; background-color: #0062ff; color: #fff; padding: 14px 20px; margin: 8px 0; border: 1px solid #0062ff; cursor: pointer; transition-duration: 0.4s;}
         #submitButton:hover {background-color: #0354e9;}
@@ -49,7 +53,7 @@
     <div id="contentContainer">
 
         <div class="appDeveloper">
-            <h2>IBM Ecosystem Advocacy Group</h2>
+            <h2>IBM Hybrid Cloud Build Team</h2>
         </div> 
         
         <div class="appTitle">
@@ -60,6 +64,56 @@
             <h2>Prediction result:</h2>
             <p>{{churn_result}}</p>
             <p>{{churn_result_percentage}}</p>
+
+            <hr>
+            
+            <h2>Input data:</h2>
+            <div style="overflow-x:auto;">
+                <table>
+                  <tr>
+                    <th><p>State</p></th>
+                    <th><p>Account length</p></th>
+                    <th><p>Area code</p></th>
+                    <th><p>International plan</p></th>
+                    <th><p>Voice mail plan</p></th>
+                    <th><p>Number vmail messages</p></th>
+                    <th><p>Total day minutes</p></th>
+                    <th><p>Total day calls</p></th>
+                    <th><p>Total day charge</p></th>
+                    <th><p>Total eve minutes</p></th>
+                    <th><p>Total eve calls</p></th>
+                    <th><p>Total eve charge</p></th>
+                    <th><p>Total night minutes</p></th>
+                    <th><p>Total night calls</p></th>
+                    <th><p>Total night charge</p></th>
+                    <th><p>Total intl. minutes</p></th>
+                    <th><p>Total intl. calls</p></th>
+                    <th><p>Total intl. charge</p></th>
+                    <th><p>Customer service calls</p></th>
+                  </tr>
+                  <tr>
+                    <td><p>{{state}}</p></td>
+                    <td><p>{{account_length}}</p></td>
+                    <td><p>{{area_code}}</p></td>
+                    <td><p>{{international_plan}}</p></td>
+                    <td><p>{{voice_mail_plan}}</p></td>
+                    <td><p>{{number_vmail_messages}}</p></td>
+                    <td><p>{{total_day_minutes}}</p></td>
+                    <td><p>{{total_day_calls}}</p></td>
+                    <td><p>{{total_day_charge}}</p></td>
+                    <td><p>{{total_eve_minutes}}</p></td>
+                    <td><p>{{total_eve_calls}}</p></td>
+                    <td><p>{{total_eve_charge}}</p></td>
+                    <td><p>{{total_night_minutes}}</p></td>
+                    <td><p>{{total_night_calls}}</p></td>
+                    <td><p>{{total_night_charge}}</p></td>
+                    <td><p>{{total_intl_minutes}}</p></td>
+                    <td><p>{{total_intl_calls}}</p></td>
+                    <td><p>{{total_intl_charge}}</p></td>
+                    <td><p>{{customer_service_calls}}</p></td>
+                  </tr>
+                </table>
+              </div>
 
             <hr>
 
@@ -73,7 +127,7 @@
         </div>
 
         <div class="appFooter">
-            <a href="https://ecosystem-events-dach.eu-de.cf.appdomain.cloud/" title="IBM Ecosystem Advocacy Group">IBM Ecosystem Advocacy Group</a>
+            <a href="https://felixaugenstein.com" title="Felix Augenstein, Data Scientist @ IBM Hybrid Cloud Build Team">developed by Felix Augenstein, Data Scientist @ IBM Hybrid Cloud Build Team</a>
         </div>
 
     </div>
