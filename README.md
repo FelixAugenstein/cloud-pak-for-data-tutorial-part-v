@@ -36,7 +36,7 @@ In this case we only focus on the deployment of the model.
 ## Start the app
 
 - Download the repository to start the app on your local machine
-- Open `app.py` and enter your API-Key, URL, Space-ID and Deployment-ID, then save the file
+- Open `.env.example`, rename it to `.env` and enter your API-Key, URL, Space-ID and Deployment-ID, then save the file
   * If you don't have one already create a new API-Key [here](https://cloud.ibm.com/iam/apikeys) or check out the previous Tutorial.
   * The default url for wml services in the US is `https://us-south.ml.cloud.ibm.com`
   * Find your Space-ID in your IBM Cloud Pak for Data --> Deployment Spaces --> Your Deployment Space --> Settings
