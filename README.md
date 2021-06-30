@@ -9,7 +9,7 @@
 4. Now you should be able to login to your new IBM Cloud account ;-)
 5. Make sure to [download Python](https://www.python.org/downloads/)
 
-## IBM Cloud Pak for Data Tutorials Part I to V
+## IBM Cloud Pak for Data Tutorials Part I to VI
 
 This tutorial consists of 6 parts, you can start with part I or any other part, however, the necessary environment is set up in part I.<br>
 [Part I - data visualization, preparation, and transformation](https://github.com/FelixAugenstein/cloud-pak-for-data-tutorial)<br>
