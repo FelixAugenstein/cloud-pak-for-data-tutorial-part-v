@@ -44,10 +44,9 @@ In this case we only focus on the deployment of the model.
   * Find your Deployment-ID in your IBM Cloud Pak for Data --> Deployment Spaces --> Your Deployment Space --> Deployments --> Your Deployment --> Info Panel on the right hand side
 
 - Start a terminal at the folder that contains the file `app.py`, in this case the folder is cloud-pak-for-data-tutorial-part-v-master
-- You might have to install the WML client and IBM Watson ML with the following commands: `pip install watson-machine-learning-client-V4` and 
-`pip install ibm_watson-machine-learning`
-- You might also have to install requests and flask with the following commands: `pip install requests` and `pip install flask`
-- Then start the app by typing: `python app.py`
+- You might have to install IBM Watson ML with the following commands: `pip install ibm_watson-machine-learning`
+- You might also have to install flask, python-dotenv and python-decouple with the following commands: `pip install flask` or `pip install -U Flask` , `pip install python-dotenv` and `pip install python-decouple`
+- Then start the app by typing: `python app.py` or if you are using python3 `python3 app.py`
 - Insert some values and hit the predict button
 
 ![Python App](readme_images/python_app.png)
