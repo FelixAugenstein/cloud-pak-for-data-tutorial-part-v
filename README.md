@@ -50,9 +50,3 @@ In this case we only focus on the deployment of the model.
 - Insert some values and hit the predict button
 
 ![Python App](readme_images/python_app.png)
-
-## If you have any questions just contact me
-Felix Augenstein<br>
-Digital Tech Ecosystem & Developer Representative @IBM<br>
-Twitter: [@F_Augenstein](https://twitter.com/F_Augenstein)<br>
-LinkedIn: [linkedin.com/in/felixaugenstein](https://www.linkedin.com/in/felixaugenstein/)
